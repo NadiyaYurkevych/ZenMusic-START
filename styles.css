@@ -1,0 +1,171 @@
+1p, ul, ol, h1, h2, h3, blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+}
+
+nav ul, nav ol {
+	list-style-type: none;
+}
+
+* { box-sizing: border-box; }
+
+body {
+	background: url(images/bg.jpg) repeat;
+	font-family: Abel, sans-serif;
+	color: #666;
+}
+
+header {
+	background:#fff;
+	padding:10px 15px 10px 0;
+}
+
+.container {
+	display: flex;
+	position: relative;
+}
+
+#top {
+	background: #e1e1e1;
+	margin-bottom: 50px;
+	padding: 30px 0;
+}
+
+#middle {
+	background: #707070;
+	margin-bottom: 50px;
+	padding: 30px 0;
+}
+
+footer {
+	background: #e1e1e1;
+	margin-bottom: 150px;
+	padding: 30px 0;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+article {
+	padding: 0 15px;
+}
+
+#top p {
+	flex: auto;
+	font-size:18px;
+	line-height:1.3em;
+}
+
+.highlight {
+	color:#e00101;
+}
+
+#middle h2 {
+	color: #afe0f5;
+	font-size: 24px;
+	padding: 0 0 30px 15px;
+}
+
+#middle h3 {
+	color: #f6fb6c;
+	font-size: 24px;
+	margin-bottom: .3em;
+}
+
+#middle p {
+	color: #e3e3e3;
+	line-height: 1.5em
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+footer h3 {
+	font-size: 24px;
+	color: #e00101;
+	margin-bottom: .2em;
+}
+
+footer h4 {
+	font-size: 16px;
+	color: #e00101;
+	margin-bottom: 1em;
+}
+
+footer p{
+	line-height:1.2em;
+}
+
+a {
+	color:#5d9bb6;
+	text-decoration:none;
+}
+
+#ticket {
+	position: absolute;
+	top: 85px;
+	right: 0;
+	width: 190px;
+	display: block;
+	background: #ebebeb;
+	border-radius: 10px;
+	color: #666;
+	text-decoration: none;
+	padding: 15px 15px;
+}
+
+#ticket h2 {
+	font-size: 18px;
+	width: 150px;
+	text-align: right;
+}
+
+#ticket h3 {
+	transform: rotate(-90deg);	
+	color: #e00101;
+	position: absolute;
+	bottom: 16px;
+	left: -3px;
+	font-size: 18px;
+}
+
+#ticket:hover {
+	background: #afe0f5;
+}
+
+#logo {
+	position: relative;
+	margin-bottom: 20px;
+}
+	
+#logo img {
+	width: 120px;
+}
+	
+#logo h1 {
+	font-size: 30px;
+	color: #000;
+	position: absolute;
+	top: 45px;
+	left: 40px;
+}
+	 
+#logo h2 {
+	font-size: 24px;
+	top: 50px;
+	left: 125px;
+	color: #e00101;
+	position: absolute;
+}
+ 
+@media only screen and (min-width: 768px)
+	
+@media only screen and (min-width: 960px)
+
+
